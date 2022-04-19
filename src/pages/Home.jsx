@@ -11,7 +11,7 @@ import Footer from "../partials/Footer";
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden bg-slate-400">
+    <div className="flex flex-col min-h-screen overflow-hidden bg-danse-green-125">
       {/*  Site header */}
       <Header />
 

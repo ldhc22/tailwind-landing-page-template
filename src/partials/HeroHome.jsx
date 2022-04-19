@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Modal from "../utils/Modal";
 
 import HeroImage from "../images/hero-image.png";
-import HexBackground from "../images/drawing.svg";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -42,34 +41,45 @@ function HeroHome() {
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 ">
         {/* Hero content */}
-        <div className="py-32 md:py-24 h-screen ">
+        <div className="pt-28 pb-14 md:pt-24 md:pb-10  h-screen ">
           {/* Section header */}
-          <div className=" bg-slate-200 rounded-lg max-h-screen h-full ">
+          <div className=" bg-slate-200 rounded-lg h-full ">
             <div className="text-center py-10 md:py-14 px-2 md:px-4 bg-hex-background bg-full bg-no-repeat h-full w-full">
+            <div className="max-w-md w-1/2 md:w-3/4 mx-auto">
+                <p
+                  className="text-xs md:text-lg text-danse-green-500 mt-7 md:mt-9 mb-4 md:mb-8"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="150"
+                >
+                  Deseando compartir <br/>
+                  la alegría de nuestra unión
+                </p>
+              </div>
               <h1
-                className="text-3xl md:text-4xl font-extrabold leading-tighter tracking-tighter my-6 font-astral"
+                className="text-2xl md:text-4xl font-extrabold leading-tighter tracking-tighter my-6 font-astral"
                 data-aos="zoom-y-out"
               >
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-700">
-                  Monse
-                </span>
-                <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-700">
-                  &
-                </span>
-                <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-700">
-                  Dany
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-danse-pink-100 to-danse-pink-500">
+                  Monse & Dany
                 </span>
               </h1>
               <div className="max-w-md w-1/2 md:w-3/4 mx-auto">
                 <p
-                  className="text-sm md:text-xl text-gray-600 mb-8"
+                  className="text-xs md:text-lg text-danse-green-500 mb-4 md:mb-8"
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
-                  Junto con nuestras familias, los invitamos a la celebración de
+                  Nos complace invitarlos a celebrar 
                   nuestro matrimonio
+                  
+                </p>
+                <p
+                  className="text-xs md:text-lg text-danse-green-500"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="150"
+                >
+                 El día 11 de Junio de 2022 <br/>
+                 a las 7:30 pm
                 </p>
               </div>
             </div>

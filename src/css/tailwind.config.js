@@ -3,18 +3,40 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hex-background": "url('src/images/drawing.svg')",
+        "hex-background": "url('src/images/GreenFlow.png')",
       },
       backgroundSize: {
         full: "100% 100%",
       },
       colors: {
         "danse-green": {
-          500: "#4c5545",
+          500: "#556b2f",
           400: "#6e7a66",
-          300: "#838a73",
-          200: "#abac8b",
-          100: "#bbb5a1",
+          300: "#a2c966",
+          200: "#6a863b",
+          125: "#c4dd9e",
+          100: "#c3d7a4",
+        },
+        "danse-pink": {
+          500: "#cd90a8",
+          400: "#efbbcc",
+          300: "#f2bdcd",
+          200: "#eccfcf",
+          125: "#e8ccd7",
+          100: "#ffdae9",
+        },
+        "danse-gold": {
+          500: "#956b00",
+          400: "#a57c00",
+          300: "#d19000",
+          200: "#e9a800",
+          125: "#ffc224",
+          100: "#ffd66d",
+        },
+        "danse-baige": {
+          500: "#A9A78B",
+          300: "#cac9b7",
+          100: "#f3f3ee",
         },
         gray: {
           100: "#FBFBFB",
