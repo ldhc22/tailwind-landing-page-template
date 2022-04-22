@@ -51,7 +51,7 @@ function HeroHome() {
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
-                  Deseando compartir <br/>
+                  Deseando compartir <br />
                   la alegría de nuestra unión
                 </p>
               </div>
