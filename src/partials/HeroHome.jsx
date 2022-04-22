@@ -43,11 +43,11 @@ function HeroHome() {
         {/* Hero content */}
         <div className="pt-28 pb-14 md:pt-24 md:pb-10  h-screen ">
           {/* Section header */}
-          <div className=" bg-slate-200 rounded-lg h-full ">
-            <div className="text-center py-10 md:py-14 px-2 md:px-4 bg-hex-background bg-full bg-no-repeat h-full w-full">
-            <div className="max-w-md w-1/2 md:w-3/4 mx-auto">
+          <div className="bg-slate-200 rounded-lg h-full ">
+            <div className="flex flex-col text-center py-10 md:py-14 px-2 md:px-4 bg-ring-two-background md:bg-hex-background bg-full bg-no-repeat h-full w-full">
+            <div className="content-center max-w-md basis-1/4 pt-10 md:pt-0 mx-auto">
                 <p
-                  className="text-xs md:text-lg text-danse-green-500 mt-7 md:mt-9 mb-4 md:mb-8"
+                  className="text-md md:text-lg text-danse-green-500"
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
@@ -55,32 +55,36 @@ function HeroHome() {
                   la alegría de nuestra unión
                 </p>
               </div>
-              <h1
-                className="text-2xl md:text-4xl font-extrabold leading-tighter tracking-tighter my-6 font-astral"
-                data-aos="zoom-y-out"
-              >
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-danse-pink-100 to-danse-pink-500">
-                  Monse & Dany
-                </span>
-              </h1>
-              <div className="max-w-md w-1/2 md:w-3/4 mx-auto">
+              <div className="basis-1/4">
+                <h1
+                 className="text-4xl md:text-4xl font-extrabold leading-tighter tracking-tighter font-astral"
+                  data-aos="zoom-y-out"
+                >
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-danse-pink-100 to-danse-pink-500">
+                    Monse & Dany
+                  </span>
+                </h1>
+              </div>
+              <div className=" basis-1/4 max-w-md md:w-3/4 mx-auto">
                 <p
-                  className="text-xs md:text-lg text-danse-green-500 mb-4 md:mb-8"
+                  className="text-md md:text-lg text-danse-green-500"
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
-                  Nos complace invitarlos a celebrar 
+                  Nos complace invitarlos a celebrar <br/>
                   nuestro matrimonio
                   
-                </p>
-                <p
-                  className="text-xs md:text-lg text-danse-green-500"
+                </p> 
+              </div>
+              <div className=" basis-1/4">
+                  <span
+                  className="inline-block align-middle text-md md:text-lg text-danse-green-500"
                   data-aos="zoom-y-out"
                   data-aos-delay="150"
                 >
                  El día 11 de Junio de 2022 <br/>
                  a las 7:30 pm
-                </p>
+                </span>
               </div>
             </div>
           </div>

@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hex-background": "url('src/images/GreenFlow.png')",
+        "hex-background": "url('src/images/RingFullScreen.png')",
+        "ring-one-background": "url('src/images/RingPhoneOne.png')",
+        "ring-two-background": "url('src/images/RingPhoneTwo.png')",
       },
       backgroundSize: {
         full: "100% 100%",
