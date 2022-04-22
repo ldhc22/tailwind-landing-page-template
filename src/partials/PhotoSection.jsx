@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DanseImage from "../images/danse-placeholder.jpeg";
+import DanseImage from "../images/M&D-425.jpg";
 
 function PhotoSection() {
   return (
@@ -14,7 +14,7 @@ function PhotoSection() {
         </div>
         <div className="flex-col flex justify-center md:col-span-4 bg-danse-baige-300 md:transform md:-translate-x-12 md:-skew-x-12 h-80 md:h-screen gradient-mask-t-20 md:gradient-mask-l-20">
           <div className="w-3/4 md:transform md:skew-x-12 md:translate-x-6 mx-auto ">
-            <h1 className="text-center text-xl md:text-2xl  ">
+            <h1 className="text-center text-xl md:text-2xl text-danse-green-500">
               No será perfecto. Pero, ¿tiene que serlo?
             </h1>
           </div>

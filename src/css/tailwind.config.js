@@ -4,6 +4,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hex-background": "url('src/images/GreenFlow.png')",
+        "ring-background": "url('src/images/TreeRings.png')",
+        "circle-background": "url('src/images/TwoCircles.png')",
       },
       backgroundSize: {
         full: "100% 100%",
