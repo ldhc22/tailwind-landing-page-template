@@ -27,9 +27,9 @@ function HeroHome() {
               y2="100%"
               id="illustration-01"
             >
-              <stop stopColor="#FFF" offset="0%" />
+              <stop stopColor="#cd90a8" offset="0%" />
               <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
+              <stop stopColor="#ffdae9" offset="100%" />
             </linearGradient>
           </defs>
           <g fill="url(#illustration-01)" fillRule="evenodd">
@@ -45,7 +45,8 @@ function HeroHome() {
           {/* Section header */}
           <div className="bg-slate-200 rounded-lg h-full ">
             <div className="flex flex-col text-center py-10 md:py-14 px-2 md:px-4 bg-ring-two-background md:bg-hex-background bg-full bg-no-repeat h-full w-full">
-            <div className="content-center max-w-md basis-1/4 pt-10 md:pt-0 mx-auto">
+            <div className="flex flex-col justify-center basis-1/4"></div>
+            <div className="flex flex-col justify-center max-w-md basis-1/4 pt-10 md:pt-0 mx-auto">
                 <p
                   className="text-md md:text-lg text-danse-green-500"
                   data-aos="zoom-y-out"
@@ -55,9 +56,9 @@ function HeroHome() {
                   la alegría de nuestra unión
                 </p>
               </div>
-              <div className="basis-1/4">
+              <div className="flex flex-col justify-center basis-1/4">
                 <h1
-                 className="text-4xl md:text-4xl font-extrabold leading-tighter tracking-tighter font-astral"
+                 className="text-5xl md:text-4xl font-extrabold leading-tighter tracking-tighter font-astral"
                   data-aos="zoom-y-out"
                 >
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-danse-pink-100 to-danse-pink-500">
@@ -65,7 +66,7 @@ function HeroHome() {
                   </span>
                 </h1>
               </div>
-              <div className=" basis-1/4 max-w-md md:w-3/4 mx-auto">
+              <div className="flex flex-col justify-center basis-1/4 max-w-md md:w-3/4 mx-auto">
                 <p
                   className="text-md md:text-lg text-danse-green-500"
                   data-aos="zoom-y-out"
@@ -86,6 +87,7 @@ function HeroHome() {
                  a las 7:30 pm
                 </span>
               </div>
+              <div className="flex flex-col justify-center basis-1/4"></div>
             </div>
           </div>
           {/* Hero image 

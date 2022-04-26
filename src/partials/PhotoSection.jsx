@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DanseImage from "../images/M&D-425.jpg";
+import DanseImage from "../images/K & D-136.jpg";
 
 function PhotoSection() {
   return (

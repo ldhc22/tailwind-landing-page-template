@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Heart from "../images/gift-heart.svg";
 
 function Header() {
 
@@ -21,7 +22,11 @@ function Header() {
 
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
-            {/* Logo */}
+          <div className="h-12 w-12 flex text-center bg-danse-pink-100 rounded-full shadow flex-shrink-0 ml-3">
+              <img className="w-1/2 h-1/2 m-auto" src={Heart} alt="Pin" />
+            </div>
+            {/* Logo
+
             <Link to="/" className="block" aria-label="Cruip">
               <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -33,7 +38,7 @@ function Header() {
                 </defs>
                 <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
               </svg>
-            </Link>
+            </Link> */}
           </div>
 
           {/* Site navigation */}
