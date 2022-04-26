@@ -9,9 +9,9 @@ const location = {
   lng: -99.62699541937965,
 };
 
-function Recepcion() {
+function Recepcion(props) {
   return (
-    <section className="relative">
+    <section ref={props.locationRef} className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
         className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-danse-green-500 pointer-events-none"

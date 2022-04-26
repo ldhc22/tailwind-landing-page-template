@@ -4,7 +4,7 @@ import Transition from "../utils/Transition";
 import DanseGift from "../images/K & D-440.jpg";
 import GiftPin from "../images/gift-svgrepo-com.svg";
 
-function Presents() {
+function Presents(props) {
   const [tab, setTab] = useState(1);
 
   const tabs = useRef(null);
@@ -26,7 +26,7 @@ function Presents() {
   }, [tab]);
 
   return (
-    <section className="relative">
+    <section ref={props.giftRef} className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
         className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
