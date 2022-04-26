@@ -16,6 +16,10 @@ function Presents() {
     }
   };
 
+  const redirect = (url) => {
+    window.open(url,"_blank");
+  }
+
   useEffect(() => {
     heightFix();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -49,32 +53,37 @@ function Presents() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                  className={`flex flex-col items-center text-lg p-6 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
                       ? "bg-white shadow-md border-danse-baige-100 hover:shadow-lg"
                       : "bg-danse-baige-100 border-transparent"
                   }`}
-                  href="#0"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setTab(1);
-                  }}
                 >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
-                    Lo único que queremos para nuestra boda es tu presencia
+                  <div className="flex flex row justify-center items-center">
+                    <div>
+                      <div className="font-bold leading-snug tracking-tight mb-1 text-danse-green-500">
+                        Lo único que queremos para nuestra boda es tu presencia
+                      </div>
+                      <div className="text-danse-green-500">
+                        <p>Pero, si deseas regalarnos algo, tenemos una mesa de regalos en Liverpool.</p>
+                      </div>
                     </div>
-                    <div className="text-gray-600">
-                    Pero, si deseas regalarnos algo, tenemos una mesa de regalos en Liverpool.
-                  Puedes darle clic a nuestra imagen para ver las opciones
+                    <div className="flex justify-center items-center w-10 h-10 bg-danse-pink-100 rounded-full shadow flex-shrink-0 ml-3">
+                      <img onClick= {()=>redirect("https://mesaderegalos.liverpool.com.mx/milistaderegalos/50859493")} className="w-1/2 h-1/2 m-auto" src={GiftPin} alt="Pin" />
                     </div>
                   </div>
-                  <div className="flex justify-center items-center w-10 h-10 bg-danse-pink-100 rounded-full shadow flex-shrink-0 ml-3">
-                    <img className="w-1/2 h-1/2 m-auto" src={GiftPin} alt="Pin" />
+                  {/*Click*/}
+                  <div className="pt-6">
+                    <a className="flex justify-center items-center text-danse-pink-500 text-2xl hover:underline" href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50859493" target="_blank" rel="noopener noreferrer">Da click aquí</a>
                   </div>
+
                 </a>
+                </div>
+                <div>
               </div>
+              
             </div>
+            
 
             {/* Tabs items */}
             <div
@@ -97,7 +106,7 @@ function Presents() {
                 >
                   <div className="relative inline-flex flex-col">
                     <img
-                      onClick="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50859493"
+                      onClick= {()=>redirect("https://mesaderegalos.liverpool.com.mx/milistaderegalos/50859493")}
                       className="md:max-w-none mx-auto rounded"
                       src={DanseGift}
                       width="346"
