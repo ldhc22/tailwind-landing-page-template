@@ -6,7 +6,7 @@ import LoveTwo from "../images/love-svgrepo-com.svg";
 function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto">
 
         {/* Top area: Blocks */}
         <div className="py-8 md:py-12 border-t border-gray-200">
@@ -18,7 +18,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="relative w-full md:w-3/4">
+          <div className="relative w-full">
                     <img
                       className="w-full"
                       src={DanseFecha}
@@ -29,7 +29,7 @@ function Footer() {
         </div>
 
         {/* Bottom area */}
-        <div className="flex items-center justify-between py-4 md:py-8 border-t border-gray-200">
+        <div className="flex items-center justify-between py-4 md:py-8 border-t border-gray-200 px-4 sm:px-6">
 
           {/* Copyrights note */}
           <div className="text-sm text-danse-green-500 mr-4">Made by <a className="text-danse-pink-500 hover:underline">Danse</a> 2022</div>
