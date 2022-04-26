@@ -1,3 +1,7 @@
+import Countdown from "../components/countdown/Countdown";
+
+const deadline = "12 Jun 2022 00:30:00 GMT";
+
 function SaveTheDate(props) {
   return (
     <section className="relative" ref={props.dateRef}>
@@ -41,6 +45,7 @@ function SaveTheDate(props) {
               El evento será el sábado 11 de junio de 2022
             </p>
             <p className="text-2xl">Solo faltan:</p>
+            <Countdown deadline={deadline} />
           </div>
         </div>
       </div>
