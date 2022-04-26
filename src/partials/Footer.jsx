@@ -9,22 +9,20 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
+        <div className="py-8 md:py-12 border-t border-gray-200">
 
           {/* 1st block */}
-          <div className="sm:col-span-12 lg:col-span-3">
-            <div className="text-sm text-gray-600">
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Te</Link> <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Esperamos</Link>
+          <div className="flex justify-center itams-center sm:col-span-12 lg:col-span-3">
+            <div className="p-6 text-sm text-gray-600">
+              <Link to="#" className=" text-danse-green-500 hover:text-gray-600 text-xl hover:underline transition duration-150 ease-in-out">Te esperamos</Link>
             </div>
           </div>
 
-          <div className="relative inline-flex flex-col">
+          <div className="relative w-full md:w-3/4">
                     <img
-                      className="md:max-w-none mx-auto rounded"
+                      className="w-full"
                       src={DanseFecha}
-                      width="500"
-                      height="462"
-                      alt="Features bg"
+                      alt="Danse <3"
                     />
           </div>         
 
@@ -34,7 +32,7 @@ function Footer() {
         <div className="flex items-center justify-between py-4 md:py-8 border-t border-gray-200">
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-danse-pink-500 hover:underline">Danse</a> 2022</div>
+          <div className="text-sm text-danse-green-500 mr-4">Made by <a className="text-danse-pink-500 hover:underline">Danse</a> 2022</div>
 
           {/* Social links */}
           <ul className="flex justify-right mb-4 md:order-1 md:ml-4 md:mb-0">

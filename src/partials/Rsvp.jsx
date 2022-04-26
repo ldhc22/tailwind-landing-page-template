@@ -40,8 +40,8 @@ function Rsvp(props) {
     <section ref={props.rsvpRef}>
       <div className="mim-h-screen bg-danse-green-125 flex flex-col items-center py-20 md:py-28">
         <div className="text-center w-full md:w-3/4 pb-4 ">
-          <h1 className="h1 text-danse-green-500 py-4">Confirmación de asistencia</h1>
-          <p className="text-danse-green-500" >
+          <h1 className="h2 text-danse-green-500 py-4">Confirmación de asistencia</h1>
+          <p className="text-xl text-danse-green-500" >
             Por favor, déjanos saber si nos acompañarás al evento y quiénes
             vendrán contigo
           </p>
@@ -129,7 +129,7 @@ function Rsvp(props) {
             </button>
           </div>
           <div className="flex items-center justify-center">
-            <button className="shadow appearance-none border rounded py-2 px-5 text-danse-pink-500 bg-danse-pink-100 " onClick={onSubmit}>Enviar</button>
+            <button className="shadow appearance-none border rounded py-2 px-5 font-bold text-danse-pink-500 bg-danse-pink-100 " onClick={onSubmit}>Enviar</button>
           </div>
         </form>
       </div>

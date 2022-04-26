@@ -29,15 +29,15 @@ function Presents(props) {
     <section ref={props.giftRef} className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-gray-100 pointer-events-none "
         aria-hidden="true"
       ></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-12 md:pt-20">
+        <div className=" pt-24 md:pt-28">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-10 md:pb-12 text-danse-green-500">
-            <h1 className="h2 mb-4">Mesa de Regalos</h1>
+            <h1 className="h2 mb-4">Mesa de regalos</h1>
             <p className="text-xl text-danse-green-500">
               "El mejor regalo es un abrazo. Es talla única y a nadie le importa que se lo devuelvas"
             </p>

@@ -28,11 +28,19 @@ function Countdown(props) {
     }, 1000);
   });
   return (
-    <div>
-      <div>{clock.days} Días</div>
-      <div>{clock.hours} Horas</div>
-      <div>{clock.minutes} Minutos</div>
-      <div>{clock.seconds} Segundos</div>
+    <div className="flex flex-row justify-center items-center gap-2 md:gap-10 items-start px-2  pb-12 md:pb-20">
+      <div className="text-danse-green-500 h-24 w-1/4 flex flex-col items-center justify-center py-16 bg-danse-baige-100 rounded shadow-xl">
+        <span className="text-3xl">{clock.days}</span> Días
+      </div>
+      <div className="text-danse-green-500 h-24 w-1/4 flex flex-col items-center justify-center py-16 bg-danse-baige-100 rounded shadow-xl">
+        <span className="text-3xl">{clock.hours}</span> Horas
+      </div>
+      <div className="text-danse-green-500 h-24 w-1/4 flex flex-col items-center justify-center py-16 bg-danse-baige-100 rounded shadow-xl">
+        <span className="text-3xl">{clock.minutes}</span> Min
+      </div>
+      <div className="text-danse-green-500 h-24 w-1/4 flex flex-col items-center justify-center py-16 bg-danse-baige-100 rounded shadow-xl">
+        <span className="text-3xl">{clock.seconds}</span> Seg
+      </div>
     </div>
   );
 }

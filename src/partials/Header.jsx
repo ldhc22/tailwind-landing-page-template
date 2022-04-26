@@ -24,7 +24,7 @@ function Header(props) {
   }, [top]);
 
   return (
-    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-danse-green-100 backdrop-blur-sm shadow-lg'}`}>
+    <header className={`fixed w-full z-30 bg-opacity-70 transition duration-300 ease-in-out ${!top && 'bg-danse-green-100 backdrop-blur-sm shadow-lg'}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
@@ -52,9 +52,9 @@ function Header(props) {
                 className={isNavOpen ? "space-y-2 hidden" : "space-y-2 block"}
                 onClick={() => setIsNavOpen((prev) => !prev)}
               >
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-danse-green-500"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-danse-green-500"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-danse-green-500"></span>
               </div>
               <div
                 className={
@@ -68,7 +68,7 @@ function Header(props) {
                   onClick={() => setIsNavOpen(false)}
                 >
                   <svg
-                    className="h-8 w-8 text-gray-600"
+                    className="h-8 w-8 text-danse-green-500"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -81,7 +81,7 @@ function Header(props) {
                   </svg>
                 </div>
                 <ul className=" flex flex-col items-center justify-between min-h-[250px]">
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className="flex flex-col items-center p-4 text-danse-green-500 border-b border-danse-baige-500 mt-16 uppercase w-full bg-opacity-90 transition duration-300 ease-in-out bg-danse-green-100 backdrop-blur-sm shadow-lg">
                     <Link
                       to={{
                         pathname: "/",
@@ -95,7 +95,7 @@ function Header(props) {
                       Fecha
                     </Link>
                   </li>
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className="flex flex-col items-center p-4 text-danse-green-500 border-b border-danse-baige-500 uppercase w-full bg-opacity-90 transition duration-300 ease-in-out bg-danse-green-100 backdrop-blur-sm shadow-lg">
                     <Link
                       to={{
                         pathname: "/",
@@ -109,7 +109,7 @@ function Header(props) {
                       Lugar
                     </Link>
                   </li>
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className="flex flex-col items-center p-4 text-danse-green-500 border-b border-danse-baige-500 uppercase w-full bg-opacity-90 transition duration-300 ease-in-out bg-danse-green-100 backdrop-blur-sm shadow-lg">
                     <Link
                       to={{
                         pathname: "/",
@@ -123,7 +123,7 @@ function Header(props) {
                       Mesa de regalos
                     </Link>
                   </li>
-                  <li className="border-b border-gray-400 my-8 uppercase">
+                  <li className=" flex flex-col items-center p-4 text-danse-green-500 border-b border-danse-baige-500 uppercase w-full bg-opacity-90 transition duration-300 ease-in-out bg-danse-green-100 backdrop-blur-sm shadow-lg">
                     <Link
                       to={{
                         pathname: "/",
