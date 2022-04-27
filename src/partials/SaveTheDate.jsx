@@ -7,7 +7,7 @@ function SaveTheDate(props) {
   return (
     <section className="relative" ref={props.dateRef}>
       <div className=" bg-danse-green-125">
-        <div className="pt-24 pb-0 md:py-28 flex flex-col items-center">
+        <div className="pt-24 md:pt-28 flex flex-col items-center">
           <div className=" items-center text-center ">
             <h2 className="h2 mb-4 text-danse-green-500">Fecha del evento</h2>
             <p className="text-xl text-danse-green-500 pb-6 px-6">

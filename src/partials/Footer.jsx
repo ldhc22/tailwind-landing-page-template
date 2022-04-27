@@ -14,7 +14,7 @@ function Footer() {
           {/* 1st block */}
           <div className="flex justify-center itams-center sm:col-span-12 lg:col-span-3">
             <div className="p-6 text-sm text-gray-600">
-              <Link to="#" className=" text-danse-green-500 hover:text-gray-600 text-xl hover:underline transition duration-150 ease-in-out">Te esperamos</Link>
+              <Link to="#" className=" text-danse-green-500 hover:text-gray-600 h2 hover:underline transition duration-150 ease-in-out">Te esperamos</Link>
             </div>
           </div>
 

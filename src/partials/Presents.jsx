@@ -34,7 +34,7 @@ function Presents(props) {
       ></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className=" pt-24 md:pt-28">
+        <div className=" pt-24 md:pt-28 pb-10">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-10 md:pb-12 text-danse-green-500">
             <h1 className="h2 mb-4">Mesa de regalos</h1>
